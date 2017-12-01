@@ -9,7 +9,7 @@ from .models import *
 from django.http import JsonResponse, HttpResponse
 
 #instantiate pusher
-pusher = Pusher(app_id=u'437140', key=u'8d5530f7a775b908af25', secret=u'0a28298c21031bff305b', cluster=u'eu')
+pusher = Pusher(app_id=u'', key=u'', secret=u'', cluster=u'eu')
 # Create your views here.
 # add the login required decorator, so the method cannot be accessed without login
 
